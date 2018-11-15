@@ -1,7 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  background: url(../imagenesMue/sla.jpg) no-repeat center top;
+  
+  background: -webkit-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+  background:    -moz-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+  background:     -ms-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+  background:      -o-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+  background:         linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
   background-size: cover;
   font-family: sans-serif;
   height: 100vh;
@@ -48,11 +53,6 @@ div::after
 }
 .centrado{
 
-  background: -webkit-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
-  background:    -moz-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
-  background:     -ms-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
-  background:      -o-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
-  background:         linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
   position: absolute;
     top: 500%;
     left: 50%;
