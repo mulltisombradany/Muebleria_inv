@@ -4,10 +4,12 @@
   <meta charset="UTF-8">
   <title>Template HTML</title>
   <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/login.css">
-  <link rel="stylesheet" href="css/misEstilos.css">
   <style>
-   
+    #encabezado{
+      background: #FF6767;
+      height: 70px;
+      width: 100%;
+    }
 
     #sidebar{
       background: #FFBABA;
@@ -17,9 +19,9 @@
     }
 
     #contenidoPrincipal{
-      background: #A2DCC6;
-      height: 1000px;
-      width: 151.6%;
+      background: #D8D8D8;
+      height: 700px;
+      width: 100%;
     }
 
     #barraDerecha{
@@ -36,23 +38,18 @@
     .caja2{
       background: firebrick;
     }
-
   </style>
 </head>
 <body>
-<!--
-background="C:\Users\office depot\Documents\GitHub\InvMuebleria\inv_muebleria\imagenesMue/sala.jpg" -->
-
- <!--Inicio  Navbar content -->
-   <div class="container-fluid">
-   
-<!-- Fin Navbar content -->
-
-    <!-- Inicio Menu -->
+  <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Navbar content -->
+
+    
    <ul class="nav">
     <img src="imagenesMue/logoMue.png" width="35px" height="35px">
 
+ 
   <li class="nav-item">
     <a class=" p-1 nav-link disabled active ">&nbsp;&nbsp;&nbsp;Muebleria</a>
   </li>
@@ -60,50 +57,66 @@ background="C:\Users\office depot\Documents\GitHub\InvMuebleria\inv_muebleria\im
   <li class="nav-item">
     <a class=" p-1 nav-link disabled active">| ITA</a>
   </li>
+
+
+ <li class="nav-item dropdown">
+   <!--  <a class=" p-1 nav-link disabled dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><FONT SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;Productos</a></FONT> -->
     
+    <div class="dropdown-menu">
+ </li>
+
   <li class="nav-item">
-    <a class="p-1 nav-link disabled" href="template.html"><FONT SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INICIO</a></FONT>
+    <a class="p-1 nav-link disabled" href="#"><FONT SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INICIO</a></FONT>
+  </li>
+  <li class="nav-item">
+   <!-- <a class=" p-1 nav-link disabled" href="#"><FONT SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;INFORMACION DE LA EMPRESA</a></FONT> -->
   </li>
 
   <li class="nav-item">
-    <a class=" p-1 nav-link disabled" href="localizacion.html"><FONT SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LOCALIZACIÓN</a></FONT>
+    <a class=" p-1 nav-link disabled" href="#"><FONT SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LOCALIZACIÓN</a></FONT>
   </li>
 
   <li class="nav-item soportetecnico">
-    <a class=" p-1 nav-link disabled dropdown-toggle" data-toggle="dropdown" href="informacionEmpresa.html" role="button" aria-haspopup="true" aria-expanded="false"> <FONT SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INFORMACIÓN DE LA EMPRESA</a>
-
-
-    </FONT>
-
-  
-   
- 
-  </li>
+    <a class=" p-1 nav-link disabled dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><FONT SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INFORMACIÓN DE LA EMPRESA</a></FONT>
+    <div class="dropdown-menu">
+       </li>
 
  <li class="nav-item soportetecnico">
-    <a class=" p-1 nav-link disabled dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><FONT SIZE=1>&nbsp;&nbsp;CATALOGO</a></FONT>
- </li>
+    <a class=" p-1 nav-link disabled dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><FONT SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CATALOGO</a></FONT>
+    <div class="dropdown-menu">
+       </li>
 
- <li class="nav-item">
- <a class=" p-1 nav-link disabled" href="contacto.html"><FONT SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;CONTACTO</a></FONT> 
- </li>
- 
-  <li class="nav-item">
-    <a class=" p-1 nav-link disabled active ">&nbsp;&nbsp;&nbsp;Muebleria</a>
+       <li class="nav-item">
+   <a class=" p-1 nav-link disabled" href="#"><FONT SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CONTACTO</a></FONT> 
+  </li>
+   <li class="nav-item">
+    <a class=" p-1 nav-link disabled active ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ITA</a>
   </li>
 
   <li class="nav-item">
-    <a class=" p-1 nav-link disabled active">| ITA&nbsp;&nbsp;&nbsp;</a>
+    <a class=" p-1 nav-link disabled active">| Muebleria&nbsp;&nbsp;&nbsp;</a>
   </li>
-  <ul class="nav">
-    <img src="imagenesMue/logoMue.png" width="35px" height="35px">
+<img src="imagenesMue/logoMue.png" width="35px" height="35px">
+
+  
+  <li class="nav-item">
+    <!--<a class="p-1 nav-link disabled btn btn-outline-dark" href="#"><FONT SIZE=1>&nbsp;Visual studio gratuito</a></FONT>-->
+  </li>
+
+   <li class="nav-item todomicrosoft">
+   <!-- <a class="p-1 nav-link disabled dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><FONT SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;Todo Microsoft</a></FONT>-->
+    <div class="dropdown-menu">
+       </li>
+       <li class="nav-item">
+    <!--<a class="p-1 nav-link disabled" href="#"><FONT SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;Sign in</a></FONT> -->
+  </li>
 </ul>
-<!-- Fin del Menu -->
 
       </div>
     </div>
     </nav>
-    <div class="container" style="margin-bottom: 20px">
+
+    <div class="container" style="margin-bottom: 40px">
 <div id="Banner" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
     <li data-target="#Banner" data-slide-to="0" class="active"></li>
@@ -133,32 +146,53 @@ background="C:\Users\office depot\Documents\GitHub\InvMuebleria\inv_muebleria\im
         
     </div>
 
+   <!-- <div class="row">
+      <div class="col-lg-2">
+        <div id="sidebar"></div>
+      </div>-->
+      
+      <!--<div class="col-lg-8">
+        <div id="contenidoPrincipal"> -->
+          
+          <div class="row">
+            <div class="col-lg-6">
+              <div ><img src="imagenesMue/Imagen 1.jpg" width="500" height="200"></div>
+            </div> 
+             <div class="col-lg-6">
+              <div ><img src="imagenesMue/Imagen 2.jpg" width="500" height="200"></div> 
+            </div>
+          </div>
+<br>
+          <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-md-6"> 
+                    <h1 class="mx-4 text-danger font-weight-normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Misión</h1>
+                    <p class="text-justify m-3">Nuestra misión en Bodega de Muebles es poner a tu disposición mobiliario y accesorios modernos, conservadores, contemporáneos, que conlleven calidad, innovación tecnológica, tendencias y estilos internacionales, sustentados en la constante búsqueda de corrientes estéticas, así como propuestas con nuevos materiales, formas, colores y estilos, con el compromiso de mejorar día con día y estar a la vanguardia, con el propósito de satisfacer las necesidades de nuestros clientes.
 
-<div class="login-box">
-      <img src="imagenesMue/user.png" class="avatar" alt="Avatar Image">
-      <h1>ACCESO</h1>
-      <form>
-        <!-- USERNAME INPUT -->
-        <label for="username">Usuario</label>
-        <input type="text" placeholder="Enter Usuario">
-        <!-- PASSWORD INPUT -->
-        <label for="password">Contraseña</label>
-        <input type="password" placeholder="Enter Contraseña">
-        <input type="submit" value="Iniciar sesión">
-        <a href="olvidandoContrasena.html">Olvidaste tu contraseña?</a><br>
-        
-
-      </form>
-
-    </div>
-  
-
-     </div>
-        <div class="footer">
-          <FONT FACE="courier" SIZE=1 COLOR="#4B4A48">Muebleria-ITA - Algunos derechos son reservados© 2017 
-           Vlv. Vicente Guerrero C.P. 39905 
-          </FONT>
+Estamos seguros de que nuestros compradores potenciales: profesionistas, empresarios, arquitectos, diseñadores, decoradores de interiores y amas de casa que busquen crear o renovar la imagen de sus hogares, oficinas y espacios especiales estarán más que satisfechos con nuestra propuesta y podrán encontrar en esta página todo lo que deseen decorando sus sentidos.</p>
+                  </div>
+                  <div class="col-md-6">
+                    <h1 class="mx-4 text-danger font-weight-normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Visión</h1>
+                    <p class="text-justify m-3">La visión de Bodega de Muebles es ser una empresa con proyección nacional e internacional, lo cual será posible mediante el esfuerzo, dedicación y profesionalismo de nuestro equipo de trabajo, tomando en cuenta las tendencias del mercado, las necesidades actuales y futuras de nuestros clientes, seguirnos renovando y actualizando en esta área para llegar a ser la mejor opción para el público de venta de muebles y accesorios en decoración para residencias, oficinas, hoteles, restaurantes, hospitales y mucho más.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
-    
+      </div>
+
+     <!-- <div class="col-lg-2">
+        <div id="barraDerecha"></div>-->
+      </div>
+    </div>
+  </div>
+   <footer>
+        <div class='define'>
+            <p>MUEBLERIA-ITA - ALGUNOS DERECHOS RESERVADOS © 2017 
+Vlv. Vicente Guerrero C.P. 39905 
+E-mail de contacto: muebleriait.acapulco@hotmail.com, Teléfonos (744) 116-45-78  .</p>
+        </div>
+    </footer>
 </body>
 </html>
