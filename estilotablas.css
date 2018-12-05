@@ -1,8 +1,11 @@
 table{
 	background-color: white;
-	text-align: left;
+	text-align: center;
 	border-collapse: collapse;
-	width: 100%;
+	width: 50%;
+	position: absolute;
+    top: 200px;
+    left: 500px;
 }
 th, td{
 	border: solid 1px black;
@@ -10,8 +13,11 @@ th, td{
 }
 thead{
 	background-color:  orange;
-	border-bottom: solid 5px black;
 	color: white;
+    width: 100%;
+	position: absolute;
+    top: -45px;
+    left: 0px;
 }
 tr:nth-child(even){
 	background-color: #ddd;
