@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content=" width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="formulario.css">
+	<link rel="stylesheet" type="text/css" href="estilotablas.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+ <!-- <link rel="stylesheet" href="css/login.css"> -->
+  <link rel="stylesheet" href="css/misEstilos.css">
+
+<!-- CRUD -->
+
+	<title>Registro de Productos</title>
+</head>
+<body>
+<center><img src="barra.png" width="%50" height="%50"></center>
+ <div class="contenido">
+ 	<div class="form_top">
+ 		<h2> Registro <span> de Productos</span></h2>
+    </div>
+    <form class="form_reg" action="altaproducto.php" method="POST" id="guarda">
+      <input type="text" value="altasd" name="opc" hidden>
+    <input class="input" id="id_prod" name="id_prod" type="text" placeholder="ID del Producto" required  autofocus>
+    <input class="input" id="tipodeprod" name="tipodeprod" type="text"  placeholder="Tipo de Producto" required>
+    <input class="input" id="marca" name="marca" type="tel"  placeholder="Marca" required>
+    <input class="input" id="tamanio" name="tamanio" type="text"  placeholder="Tamaño" required>
+    <input class="input" id="color" name="color" type="text" placeholder="Color" required  autofocus>
+    <input class="input" id="descripcione" name="descripcione" type="text"  placeholder="Descripción" required>
+         <input class="registrar" type="submit" value="REGISTRAR">
+
+    <div class="boton">
+     <input class="limpiar" type="reset" value="LIMPIAR">
+     </div>
+   
+    </form>
+ </div >
+
+  <center>
+  	<table >
+  		<thead>
+  		<tr>
+  			<th colspan="1"><a href="registrarclientes.html">NUEVO</a></th>
+  		    <th colspan="10"> <center>REGISTROS DE CLIENTES</center></th> 
+  			</tr> 
+  		</thead>
+  		<tbody>
+  			<tr>
+  				<td>ID del Producto</td>
+  				<td>Tipo de Producto</td>
+  				<td>Marca</td>
+  				<td>Tamaño</td>
+  				<td>Color</td>
+  				<td>Descripción</td>
+  				<td colspan="2"> <center>OPERACION A REALIZAR</center></td>
+  				
+  			</tr>
+      <!--   migue elimina esto -->
+  			<tr>
+  				<td>00001</td>
+  				<td>Cama</td>
+  				<td>Spring Air</td>
+  				<td>160cm x 100cm</td>
+  				<td>Blanca</td>
+  				<td>Comoda</td>
+  				<td><a href="">Modficar</a></td>
+  				<td><a href="">Eliminar</a></td>
+  			</tr>
+  			<tr>
+  				<td>00002</td>
+  				<td>Sala</td>
+  				<td>Troncoso</td>
+  				<td>100cm x 70cm</td>
+  				<td>Rojo</td>
+  				<td>Comoda</td>
+  				<td><a href="">Modficar</a></td>
+  				<td><a href="">Eliminar</a></td>
+  			</tr>
+  			<tr>
+  				<td>00003</td>
+  				<td>Litera</td>
+  				<td>Smooth</td>
+  				<td>100cm x 60cm</td>
+  				<td>Azul</td>
+  				<td>Comoda</td>
+  				<td><a href="">Modficar</a></td>
+  				<td><a href="">Eliminar</a></td>
+  			</tr>
+  	   <!-- hasta aqui solo era para hacer pruebas-->
+  		</tbody>
+  	</table>
+  </center>
+
+</body>
+</html>
